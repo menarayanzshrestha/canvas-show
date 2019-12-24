@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+canvas {
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+img{
+  z-index: -10;
+}
